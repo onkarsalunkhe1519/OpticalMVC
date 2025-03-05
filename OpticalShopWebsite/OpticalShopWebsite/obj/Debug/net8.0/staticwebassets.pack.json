@@ -1,0 +1,481 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OpticalShopWebsite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\OpticalShopWebsite.3cdi1gdaxs.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\Invoices\\Invoice_1_20250217014725.pdf",
+      "PackagePath": "staticwebassets\\Invoices\\Invoice_1_20250217014725.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\Invoices\\Invoice_1_20250218003608.pdf",
+      "PackagePath": "staticwebassets\\Invoices\\Invoice_1_20250218003608.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\Invoices\\Invoice_2_20250217170833.pdf",
+      "PackagePath": "staticwebassets\\Invoices\\Invoice_2_20250217170833.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\Invoices\\Invoice_2_20250218010840.pdf",
+      "PackagePath": "staticwebassets\\Invoices\\Invoice_2_20250218010840.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\Invoices\\Invoice_3_20250217171226.pdf",
+      "PackagePath": "staticwebassets\\Invoices\\Invoice_3_20250217171226.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\Payslips\\Payslip_emp1@gmail.com_January_2025.pdf",
+      "PackagePath": "staticwebassets\\Payslips\\Payslip_emp1@gmail.com_January_2025.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\Payslips\\Payslip_employee@gmail.com_January_2024.pdf",
+      "PackagePath": "staticwebassets\\Payslips\\Payslip_employee@gmail.com_January_2024.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\ProductImages\\0c699bdf-78a3-45be-89f1-e385901e8fd4_g-3.png",
+      "PackagePath": "staticwebassets\\ProductImages\\0c699bdf-78a3-45be-89f1-e385901e8fd4_g-3.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\ProductImages\\583e0dd5-6e69-406f-b59d-17841537798d_sign_l.png",
+      "PackagePath": "staticwebassets\\ProductImages\\583e0dd5-6e69-406f-b59d-17841537798d_sign_l.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\ProductImages\\7be3198f-ddbc-4a75-8cc8-53777d5977ad_sign_l.png",
+      "PackagePath": "staticwebassets\\ProductImages\\7be3198f-ddbc-4a75-8cc8-53777d5977ad_sign_l.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\ProductImages\\9a7fdb27-01f5-4386-bb1b-e82014d2d57c_Free (2) (3) (1).jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\9a7fdb27-01f5-4386-bb1b-e82014d2d57c_Free (2) (3) (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\ProductImages\\a8a132d6-40fd-4e1d-8341-20934b07c5f8_buy-img.png",
+      "PackagePath": "staticwebassets\\ProductImages\\a8a132d6-40fd-4e1d-8341-20934b07c5f8_buy-img.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\ProductImages\\accd7a15-5a87-43ce-b6b5-155969e82d8b_quality-img.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\accd7a15-5a87-43ce-b6b5-155969e82d8b_quality-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\ProductImages\\e4037d3d-be39-40f3-ab29-d2577a3cddbd_optical-banner2.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\e4037d3d-be39-40f3-ab29-d2577a3cddbd_optical-banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\Reports\\EyeReport_1_20250217010922.pdf",
+      "PackagePath": "staticwebassets\\Reports\\EyeReport_1_20250217010922.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\Reports\\EyeReport_1_20250218002010.pdf",
+      "PackagePath": "staticwebassets\\Reports\\EyeReport_1_20250218002010.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\Reports\\EyeReport_2_20250217170430.pdf",
+      "PackagePath": "staticwebassets\\Reports\\EyeReport_2_20250217170430.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\Reports\\EyeReport_2_20250218010707.pdf",
+      "PackagePath": "staticwebassets\\Reports\\EyeReport_2_20250218010707.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\about-img.png",
+      "PackagePath": "staticwebassets\\images\\about-img.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\buy-img.png",
+      "PackagePath": "staticwebassets\\images\\buy-img.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\cart.png",
+      "PackagePath": "staticwebassets\\images\\cart.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\client.png",
+      "PackagePath": "staticwebassets\\images\\client.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\facebook.avif",
+      "PackagePath": "staticwebassets\\images\\facebook.avif"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\g-1.png",
+      "PackagePath": "staticwebassets\\images\\g-1.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\g-2.png",
+      "PackagePath": "staticwebassets\\images\\g-2.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\g-3.png",
+      "PackagePath": "staticwebassets\\images\\g-3.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\g-4.png",
+      "PackagePath": "staticwebassets\\images\\g-4.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\g-5.png",
+      "PackagePath": "staticwebassets\\images\\g-5.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\g-6.png",
+      "PackagePath": "staticwebassets\\images\\g-6.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\g-7.png",
+      "PackagePath": "staticwebassets\\images\\g-7.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\g-8.png",
+      "PackagePath": "staticwebassets\\images\\g-8.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\instagram.avif",
+      "PackagePath": "staticwebassets\\images\\instagram.avif"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\linkedin.avif",
+      "PackagePath": "staticwebassets\\images\\linkedin.avif"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\menu.png",
+      "PackagePath": "staticwebassets\\images\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\next-white.png",
+      "PackagePath": "staticwebassets\\images\\next-white.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\offer-img.jpg",
+      "PackagePath": "staticwebassets\\images\\offer-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\optical-banner.avif",
+      "PackagePath": "staticwebassets\\images\\optical-banner.avif"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\prev-white.png",
+      "PackagePath": "staticwebassets\\images\\prev-white.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\quality-img.jpg",
+      "PackagePath": "staticwebassets\\images\\quality-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\quote.png",
+      "PackagePath": "staticwebassets\\images\\quote.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\images\\search-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\slider-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\images\\twitter.avif",
+      "PackagePath": "staticwebassets\\images\\twitter.avif"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ONKAR SALUNKHE\\Downloads\\OpticalShopWebsite\\OpticalShopWebsite\\OpticalShopWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OpticalShopWebsite.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OpticalShopWebsite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.OpticalShopWebsite.props",
+      "PackagePath": "build\\OpticalShopWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.OpticalShopWebsite.props",
+      "PackagePath": "buildMultiTargeting\\OpticalShopWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.OpticalShopWebsite.props",
+      "PackagePath": "buildTransitive\\OpticalShopWebsite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

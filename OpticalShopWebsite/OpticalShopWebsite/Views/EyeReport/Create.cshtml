@@ -1,0 +1,91 @@
+﻿@model OpticalShopWebsite.Models.EyeReport
+
+@{
+    ViewBag.Title = "Create Eye Report";
+}
+
+<div class="container my-5">
+    <h2 class="text-center" style="color:black;"><b>Create Eye Report</b></h2>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg">
+                <div class="card-header bg-dark text-white">
+                    <h4 class="mb-0">Eye Report Form</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post">
+                        <div class="form-group">
+                            <label asp-for="CustomerEmail" class="font-weight-bold">Customer Email</label>
+                            <input asp-for="CustomerEmail" class="form-control" />
+                            <span asp-validation-for="CustomerEmail" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="LeftCylinder" class="font-weight-bold">Left Cylinder</label>
+                            <input asp-for="LeftCylinder" class="form-control" />
+                            <span asp-validation-for="LeftCylinder" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="RightCylinder" class="font-weight-bold">Right Cylinder</label>
+                            <input asp-for="RightCylinder" class="form-control" />
+                            <span asp-validation-for="RightCylinder" class="text-danger"></span>
+                        </div>
+
+                        <div class="text-center">
+                        <button type="submit" class="btn btn-dark btn-block mt-4">Submit Report</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+
+
+
+
+
+
+
+@* @model OpticalShopWebsite.Models.EyeReport
+
+@{
+    ViewBag.Title = "Create Eye Report";
+}
+
+<h2>Create Eye Report</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="CustomerEmail"></label>
+        <input asp-for="CustomerEmail" class="form-control" />
+        <span asp-validation-for="CustomerEmail" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="LeftCylinder"></label>
+        <input asp-for="LeftCylinder" class="form-control" />
+        <span asp-validation-for="LeftCylinder" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="RightCylinder"></label>
+        <input asp-for="RightCylinder" class="form-control" />
+        <span asp-validation-for="RightCylinder" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit Report</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+ *@

@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OpticalShopWebsite
+build_property.RootNamespace = OpticalShopWebsite
+build_property.ProjectDir = C:\Users\ONKAR SALUNKHE\Downloads\OpticalShopWebsite\OpticalShopWebsite\OpticalShopWebsite\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ONKAR SALUNKHE\Downloads\OpticalShopWebsite\OpticalShopWebsite\OpticalShopWebsite
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Account/Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Admin/AddSalary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkU2FsYXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Admin/EmployeePayslips.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRW1wbG95ZWVQYXlzbGlwcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Admin/MyPayslips.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTXlQYXlzbGlwcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/EyeReport/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXllUmVwb3J0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/EyeReport/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXllUmVwb3J0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/EyeReport/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXllUmVwb3J0XFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Orders/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENoZWNrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Orders/EditStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEVkaXRTdGF0dXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Orders/EmployeeOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEVtcGxveWVlT3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Orders/EmployeeProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEVtcGxveWVlUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Orders/UserOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFVzZXJPcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ONKAR SALUNKHE/Downloads/OpticalShopWebsite/OpticalShopWebsite/OpticalShopWebsite/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3zjt7k71fs

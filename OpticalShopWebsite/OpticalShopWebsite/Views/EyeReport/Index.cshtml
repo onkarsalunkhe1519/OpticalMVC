@@ -1,0 +1,81 @@
+﻿@model IEnumerable<OpticalShopWebsite.Models.EyeReport>
+
+@{
+    ViewBag.Title = "All Eye Reports";
+}
+
+<div class="container my-4">
+    <div class="d-flex justify-content-between mb-3">
+        <h2 style="color:black;"><b>Eye Reports</b></h2>
+        <a href="@Url.Action("Create", "EyeReport")" class="btn btn-dark">
+            <i class="bi bi-file-earmark-plus"></i> Create New Report
+        </a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Report ID</th>
+                    <th>Customer Email</th>
+                    <th>Report Date</th>
+                    <th>Left Cylinder</th>
+                    <th>Right Cylinder</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var report in Model)
+                {
+                    <tr>
+                        <td>@report.Id</td>
+                        <td>@report.CustomerEmail</td>
+                        <td>@report.ReportDate.ToString("dd MMM yyyy")</td>
+                        <td>@report.LeftCylinder</td>
+                        <td>@report.RightCylinder</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+
+
+
+@* @model IEnumerable<OpticalShopWebsite.Models.EyeReport>
+
+@{
+    ViewBag.Title = "All Eye Reports";
+}
+
+<h2>All Eye Reports</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Report ID</th>
+            <th>Customer Email</th>
+            <th>Report Date</th>
+            <th>Left Cylinder</th>
+            <th>Right Cylinder</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var report in Model)
+        {
+            <tr>
+                <td>@report.Id</td>
+                <td>@report.CustomerEmail</td>
+                <td>@report.ReportDate.ToString("dd MMM yyyy")</td>
+                <td>@report.LeftCylinder</td>
+                <td>@report.RightCylinder</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create", "EyeReport")" class="btn btn-primary">Create New Report</a>
+ *@

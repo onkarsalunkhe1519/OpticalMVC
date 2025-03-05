@@ -1,0 +1,84 @@
+﻿@model OpticalShopWebsite.Models.Order
+
+@{
+    ViewBag.Title = "Edit Order Status";
+}
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Edit Order Status</h2>
+
+    <div class="card shadow-sm p-4">
+        <form asp-action="EditStatus" method="post">
+            @Html.AntiForgeryToken()
+
+            <div class="form-group row">
+                <label class="col-sm-3 col-form-label">Order ID:</label>
+                <div class="col-sm-9">
+                    <span>@Model.Id</span>
+                    <input type="hidden" name="orderId" value="@Model.Id" />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-sm-3 col-form-label">Current Status:</label>
+                <div class="col-sm-9">
+                    <span>@Model.OrderStatus</span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="orderStatus" class="col-sm-3 col-form-label">Change Status:</label>
+                <div class="col-sm-9">
+                    <select id="orderStatus" name="orderStatus" class="form-control">
+                        <option value="Pending" selected="@(Model.OrderStatus == "Pending")">Pending</option>
+                        <option value="In Process" selected="@(Model.OrderStatus == "In Process")">In Process</option>
+                        <option value="Delivered" selected="@(Model.OrderStatus == "Delivered")">Delivered</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group row justify-content-center">
+                <div class="col-sm-9 text-center">
+                    <button type="submit" class="btn btn-dark mt-4">Update Status</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+@* @model OpticalShopWebsite.Models.Order
+
+@{
+    ViewBag.Title = "Edit Order Status";
+}
+
+<h2>Edit Order Status</h2>
+
+<form asp-action="EditStatus" method="post">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label>Order ID:</label>
+        <span>@Model.Id</span>
+        <input type="hidden" name="orderId" value="@Model.Id" />
+    </div>
+    <div class="form-group">
+        <label>Current Status:</label>
+        <span>@Model.OrderStatus</span>
+    </div>
+    <div class="form-group">
+        <label for="orderStatus">Change Status:</label>
+        <select id="orderStatus" name="orderStatus" class="form-control">
+            <option value="Pending" selected="@(Model.OrderStatus == "Pending")">Pending</option>
+            <option value="In Process" selected="@(Model.OrderStatus == "In Process")">In Process</option>
+            <option value="Delivered" selected="@(Model.OrderStatus == "Delivered")">Delivered</option>
+        </select>
+
+    </div>
+    <button type="submit" class="btn btn-primary">Update Status</button>
+</form>
+ *@

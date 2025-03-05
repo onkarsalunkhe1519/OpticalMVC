@@ -1,0 +1,106 @@
+﻿@{
+    var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+    var currentAction = ViewContext.RouteData.Values["action"]?.ToString();
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] SGLASS</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/OpticalShopWebsite.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+@{
+    var userRole = Context.Session.GetString("UserRole");
+}
+<body style="background-color:#f5f2f7" >
+    @if (!(currentController == "Account" && (currentAction == "Index" || currentAction == "Account")))
+    {
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3" style="background-color:#0C0C0C">
+                <div class="container-fluid d-flex justify-content-between">
+                    <!-- SGLASS Logo on the left -->
+                    <h2 style="color:#d7cff4"><b>SGLASS</b></h2>
+
+                    <!-- Navbar items on the right -->
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav ms-auto">
+                            @if (userRole == "Admin")
+                            {
+                                <li class="nav-item me-4">
+                                    <a class="nav-link" style="color:#d7cff4" href="@Url.Action("EmployeePayslips", "Admin")"><b>Employee Salaries</b></a>
+                                </li>
+                                <li class="nav-item me-4">
+                                    <a class="nav-link" style="color:#d7cff4" href="@Url.Action("AddSalary", "Admin")"> <b>Add Salary</b></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link btn" style="background-color:#eb19b7;  color:white" href="@Url.Action("Logout", "Account")"><b>Logout</b></a>
+                                </li>
+                            }
+                            else if (userRole == "User")
+                            {
+                                <li class="nav-item me-4">
+                                    <a class="nav-link" style="color:#d7cff4" href="@Url.Action("Index", "Product")"><b>Online Order</b></a>
+                                </li>
+                                <li class="nav-item me-4">
+                                    <a class="nav-link" style="color:#d7cff4" href="@Url.Action("UserOrders", "Orders")"><b>My Orders</b></a>
+                                </li>
+                                <li class="nav-item me-4">
+                                    <a class="nav-link btn " style="background-color:#eb19b7;  color:white" href="@Url.Action("Logout", "Account")"><b>Logout</b></a>
+                                </li>
+                            }
+                            else if (userRole == "Employee")
+                            {
+                                <li class="nav-item me-4">
+                                    <a class="nav-link" style="color:#d7cff4" href="@Url.Action("Index", "EyeReport")"><b>Eye Reports</b></a>
+                                </li>
+                                <li class="nav-item me-4">
+                                    <a class="nav-link" style="color:#d7cff4" href="@Url.Action("EmployeeOrders", "Orders")"><b>All Orders</b></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" style="color:#d7cff4" href="@Url.Action("EmployeeProducts", "Orders")"><b>All Products</b></a>
+                                </li>
+                                <li class="nav-item me-4">
+                                    <a class="nav-link" style="color:#d7cff4" href="@Url.Action("Create", "Product")"><b>Add Product</b></a>
+                                </li>
+                                <li class="nav-item me-4">
+                                    <a class="nav-link" style="color:#d7cff4" href="@Url.Action("MyPayslips", "Admin")"><b>My Salary Slip</b></a>
+                                </li>
+                                <li class="nav-item me-4">
+                                    <a class="nav-link btn" style="background-color:#eb19b7; color:white" href="@Url.Action("Logout", "Account")"> <b>Logout</b></a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+    }
+   
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+  
+
+   @*  <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - OpticalShopWebsite - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer> *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

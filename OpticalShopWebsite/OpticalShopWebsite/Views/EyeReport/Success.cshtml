@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Report Submitted";
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg">
+                <div class="card-header bg-dark text-white">
+                    <h4 class="mb-0">Success!</h4>
+                </div>
+                <div class="card-body text-center">
+                    <h3 class="text-success"><b>Report Submitted Successfully</b></h3>
+                    <p>Your eye report has been submitted, and a PDF copy has been sent to the customer email.</p>
+                    <a href="@Url.Action("Create", "EyeReport")" class="btn btn-dark btn-lg">Submit Another Report</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+@* @{
+    ViewBag.Title = "Report Submitted";
+}
+
+<h2>Report Submitted Successfully</h2>
+<p>Your eye report has been submitted, and a PDF copy has been sent to the customer email.</p>
+<a href="@Url.Action("Create", "EyeReport")" class="btn btn-primary">Submit Another Report</a>
+ *@

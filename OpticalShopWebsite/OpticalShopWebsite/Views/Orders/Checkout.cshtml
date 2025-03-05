@@ -1,0 +1,97 @@
+﻿@{
+    // Retrieve data from ViewBag.
+    var product = ViewBag.Product as OpticalShopWebsite.Models.Product;
+    var userEmail = ViewBag.UserEmail as string;
+    var razorpayKey = ViewBag.RazorpayKey as string;
+    var razorpayOrderId = ViewBag.RazorpayOrderId as string;
+    var amount = ViewBag.Amount as int? ?? 0;
+}
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Checkout</h2>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-lg border-light rounded">
+                <div class="card-body">
+                    <h3 class="card-title text-center">@product.Name</h3>
+                    <hr>
+                    <div class="d-flex justify-content-between mb-3">
+                        <p class="card-text"><strong>Price:</strong> ₹@product.Price</p>
+                        <p class="card-text"><strong>Stock:</strong> @product.CurrentStock</p>
+                    </div>
+
+                    <h5 class="text-center text-muted mb-4">Please proceed to payment</h5>
+
+                    <!-- Payment Information Section -->
+                    <div class="text-center">
+                        <button id="rzp-button1" class="btn btn-dark btn-lg px-5 py-3">
+                            Pay Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+        var options = {
+            "key": "@razorpayKey", // Razorpay Key
+            "amount": "@amount", // Amount in paise
+            "currency": "INR",
+            "name": "@product.Name",
+            "description": "Purchase Product",
+            "order_id": "@razorpayOrderId", // For demo purposes only
+            "handler": function (response) {
+                // On payment success, send the necessary details to the server.
+                var data = {
+                    razorpay_payment_id: response.razorpay_payment_id,
+                    razorpay_order_id: response.razorpay_order_id,
+                    razorpay_signature: response.razorpay_signature,
+                    productId: @product.Id
+                };
+
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("PaymentSuccess", "Orders")",
+                    data: data,
+                    success: function (res) {
+                        if (res.status === "success") {
+                            alert("Payment successful and order placed!");
+                            window.location.href = "@Url.Action("UserOrders", "Orders")";
+                        } else {
+                            alert("Payment verification failed.");
+                            window.location.href = "@Url.Action("PaymentFailed", "Orders")";
+                        }
+                    },
+                    error: function () {
+                        alert("Error in processing payment.");
+                        window.location.href = "@Url.Action("PaymentFailed", "Orders")";
+                    }
+                });
+            },
+            "prefill": {
+                "email": "@userEmail"
+            },
+            "theme": {
+                "color": "#3399cc"
+            },
+            // Handle when user dismisses the Razorpay modal
+            "modal": {
+                "ondismiss": function(){
+                    alert("Payment cancelled.");
+                    window.location.href = '@Url.Action("PaymentFailed", "Orders")';
+                }
+            }
+        };
+        var rzp1 = new Razorpay(options);
+        document.getElementById('rzp-button1').onclick = function (e) {
+            rzp1.open();
+            e.preventDefault();
+        }
+    </script>
+}

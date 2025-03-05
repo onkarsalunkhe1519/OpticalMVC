@@ -1,0 +1,83 @@
+﻿@model IEnumerable<OpticalShopWebsite.Models.Product>
+
+@{
+    ViewBag.Title = "Products";
+}
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Our Products</h2>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var product in Model)
+        {
+            <div class="col">
+                <div class="card shadow-lg border-light rounded">
+                    @if (!string.IsNullOrEmpty(product.ProductImage))
+                    {
+                        <img class="card-img-top" src="~/@product.ProductImage" alt="@product.Name" style="height:250px; object-fit:cover;">
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title text-truncate" style="max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">@product.Name</h5>
+                        <p class="card-text"><strong>Price:</strong> ₹@product.Price</p>
+                        <p class="card-text"><strong>Stock:</strong> @product.CurrentStock</p>
+                        <div class="d-flex justify-content-between">
+                            <a href="@Url.Action("Checkout", "Orders", new { productId = product.Id })" class="btn" style="background-color:#eb19b7"><b>Buy Now</b></a>
+                            <a href="#" class="btn btn-outline-secondary" data-toggle="tooltip" data-placement="top" title="Add to Wishlist">
+                                <i class="fas fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@* @model IEnumerable<OpticalShopWebsite.Models.Product>
+
+@{
+    ViewBag.Title = "Products";
+}
+
+<h2>Products</h2>
+
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                @if (!string.IsNullOrEmpty(product.ProductImage))
+                {
+                    <img class="card-img-top" src="~/@product.ProductImage" alt="@product.Name" style="height:200px; object-fit:cover;">
+                }
+                <div class="card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text">Price: ₹@product.Price</p>
+                    <p class="card-text">Stock: @product.CurrentStock</p>
+                    <a href="@Url.Action("Checkout", "Orders", new { productId = product.Id })" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+ *@

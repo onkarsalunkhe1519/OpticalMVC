@@ -1,0 +1,94 @@
+﻿@model OpticalShopWebsite.Models.Product
+
+@{
+    ViewBag.Title = "Add Product";
+}
+
+<h2 class="text-center my-4" style="color:black;"><b>Add Product</b></h2>
+
+<div class="container d-flex justify-content-center align-items-center" style="height: 80vh;">
+    <div class="card p-4 shadow-sm" style="width: 100%; max-width: 500px; margin-top:-80px">
+        <form asp-action="Create" enctype="multipart/form-data" method="post">
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="form-label">Product Name</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Price" class="form-label">Price (₹)</label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="CurrentStock" class="form-label">Current Stock</label>
+                <input asp-for="CurrentStock" class="form-control" />
+                <span asp-validation-for="CurrentStock" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="form-label">Product Image</label>
+                <input type="file" name="productImageFile" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-dark w-100">Add Product</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@* @model OpticalShopWebsite.Models.Product
+
+@{
+    ViewBag.Title = "Add Product";
+}
+
+<h2>Add Product</h2>
+
+<form asp-action="Create" enctype="multipart/form-data" method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CurrentStock"></label>
+        <input asp-for="CurrentStock" class="form-control" />
+        <span asp-validation-for="CurrentStock" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Product Image</label>
+        <input type="file" name="productImageFile" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Add Product</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+ *@
